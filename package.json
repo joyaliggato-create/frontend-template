@@ -1,0 +1,22 @@
+{
+  "name": "frontend-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tw": "tailwindcss -i ./src/css/input.css -o ./dist/css/output.css --watch",
+    "format": "prettier --write '**/*.{html,css,js,jsx,ts,tsx}'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1",
+    "prettier-plugin-tailwindcss": "^0.7.2"
+  }
+}
