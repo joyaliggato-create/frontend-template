@@ -8,7 +8,7 @@ export default defineConfig([
   },
 
   js.configs.recommended,
-
+  
   {
     files: ["**/*.{js,mjs,cjs}"],
     languageOptions: {
