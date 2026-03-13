@@ -4,11 +4,11 @@ import js from "@eslint/js";
 
 export default defineConfig([
   {
-    ignores: ["dist/**", "build/**", "node_modules/**", "*.min.js", "coverage/**"],
+    ignores: ["dist/**", "node_modules/**"],
   },
 
   js.configs.recommended,
-  
+
   {
     files: ["**/*.{js,mjs,cjs}"],
     languageOptions: {
